@@ -10,3 +10,18 @@
 *.lai
 *.la
 *.a
+
+# Qt
+Makefile
+Makefile.*
+*.pro.user
+debug/
+release/
+bin/
+moc_*.cpp
+qrc_*.cpp
+*.moc
+*.app/
+
+# Mac OS X
+.DS_Store
