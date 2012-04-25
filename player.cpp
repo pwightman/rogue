@@ -21,19 +21,19 @@ void player::move( Qt::Key direction, game_board& board )
 {
    int newX = 0, newY = 0;
    switch (direction) {
-      case Qt::Key_Left:
+      case Qt::Key_A:
 	 if (board.get_char(x - 1, y    ) != '#')
 	    --newX;   
 	 break;
-      case Qt::Key_Right:
+      case Qt::Key_D:
 	 if (board.get_char(x + 1, y    ) != '#')
 	    ++newX;
 	 break;
-      case Qt::Key_Up:
+      case Qt::Key_W:
 	 if (board.get_char(x    , y - 1) != '#')
 	    --newY;
 	 break;
-      case Qt::Key_Down:
+      case Qt::Key_S:
 	 if (board.get_char(x    , y + 1) != '#')
 	    ++newY;
 	 break;    

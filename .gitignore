@@ -1,3 +1,7 @@
+# vi
+*.swp
+*.swo
+
 # Compiled Object files
 *.slo
 *.lo
